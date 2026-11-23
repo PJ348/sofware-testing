@@ -4,7 +4,7 @@
 * **ลิ้ง requirement และ test case:** https://drive.google.com/drive/folders/1Xq0W_AbxgVhLfXD8nrtloXorPwfRRn1o?usp=sharing
 
 ### Tast 02: GradeCalculator แปลงคะแนนเป็นเกรด
-* **ลิ้งงาน:** https://drive.google.com/drive/folders/1_jpSD1QMDXjdAcXrxpylCHs59nqW9zNe?usp=sharing
+* **test case + TDD:** https://docs.google.com/spreadsheets/d/1y04zQKKeuBBuSpwcTMQDDOQfLWf8Fo8Jj7JtTk9bH30/edit?usp=sharing
 
 ---
 
