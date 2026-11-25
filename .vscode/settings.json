@@ -1,0 +1,12 @@
+// {
+//     // "java.jdt.ls.java.home": ""
+//     // "java.jdt.ls.java.home": ""
+// }
+{
+    "files.autoSave": "afterDelay",
+    "git.autofetch": true,
+    "code-runner.runInTerminal": true,
+    "containers.containerClient": "com.microsoft.visualstudio.containers.docker",
+    "containers.orchestratorClient": "com.microsoft.visualstudio.containers.dockercompose",
+    "redhat.telemetry.enabled": true
+}

@@ -19,6 +19,7 @@ public class gradeCalculatorTest {
         assertEquals("C",  calc.gradeOf(60));
         assertEquals("D+", calc.gradeOf(55));
         assertEquals("D",  calc.gradeOf(50));
+        assertEquals("F",  calc.gradeOf(0));
     }
 
     @Test
@@ -30,6 +31,7 @@ public class gradeCalculatorTest {
         assertEquals("C",  calc.gradeOf(64));
         assertEquals("D+", calc.gradeOf(59));
         assertEquals("D",  calc.gradeOf(54));
+        assertEquals("F",  calc.gradeOf(49));
     }
 
 }
