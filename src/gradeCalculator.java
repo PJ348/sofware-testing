@@ -5,6 +5,8 @@ public class gradeCalculator {
             return "A";
         } else if (score >= 75) {
             return "B+";
+        } else if (score >= 70) {
+            return "B";
         } 
         return null;
     }
