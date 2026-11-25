@@ -1,6 +1,10 @@
 
 public class gradeCalculator {
     public String gradeOf(int score) {
+        if (score < 0) {
+            throw new IllegalArgumentException("คะแนนติดลบไม่ได้");
+        }
+        
         if (score >= 80) {
             return "A";
         } else if (score >= 75) {

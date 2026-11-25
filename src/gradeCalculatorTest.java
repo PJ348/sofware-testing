@@ -34,4 +34,8 @@ public class gradeCalculatorTest {
         assertEquals("F",  calc.gradeOf(49));
     }
 
+    @Test(expected = IllegalArgumentException.class)
+    public void scoreBelowZeroThrows() {
+        calc.gradeOf(-1);
+    }
 }
