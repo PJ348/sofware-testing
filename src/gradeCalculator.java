@@ -11,6 +11,8 @@ public class gradeCalculator {
             return "C+";
         } else if (score >= 60) {
             return "C";
+        } else if (score >= 55) {
+            return "D+";
         } 
         return null;
     }
