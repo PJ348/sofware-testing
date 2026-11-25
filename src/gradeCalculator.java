@@ -4,6 +4,9 @@ public class gradeCalculator {
         if (score < 0) {
             throw new IllegalArgumentException("คะแนนติดลบไม่ได้");
         }
+        if (score > 100) {
+            throw new IllegalArgumentException("คะแนนมากกว่า100ไม่ได้");
+        }
         
         if (score >= 80) {
             return "A";

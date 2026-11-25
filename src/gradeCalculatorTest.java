@@ -38,4 +38,9 @@ public class gradeCalculatorTest {
     public void scoreBelowZeroThrows() {
         calc.gradeOf(-1);
     }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void scoreAboveHundredThrows() {
+        calc.gradeOf(101);
+    }
 }
